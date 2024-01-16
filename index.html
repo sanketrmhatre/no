@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanket Mhatre</title>
+    <link href="https://fonts.cdnfonts.com/css/valencia" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="hidden">
+        <img class="logo" src="assets/logo.png" />
+        <div class="nav__right">
+          <a id="link__aboutme">About Me</a>
+          <a id="link__projects">Projects</a>
+          <a id="link__skills">Skills</a>
+          <a id="link__contact">Contact</a>
+        </div>
+        <div class="bars hide">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="slides__container">
+      <button class="scroll__btn scroll__up hidden">&#8896;</button>
+      <button class="scroll__btn scroll__down">&#8897;</button>
+      <div class="nav__links hide__menu">
+        <a id="link__aboutme--small">About Me</a>
+        <a id="link__projects--small">Projects</a>
+        <a id="link__skills--small">Skills</a>
+        <a id="link__contact--small">Contact</a>
+      </div>
+      <div class="slides">
+        <section class="info__container">
+          <div class="info">
+            <h1 class="flicker">Sanket Mhatre</h1>
+            <h5>Computer Engineer & Developer</h5>
+          </div>
+        </section>
+
+        <section class="aboutme">
+          <h6>About me</h6>
+          <p class="about about__hide">
+            A Computer engineer with passion for coding and building websites,
+            applications. When I am not coding, you will find me in gym or in the chess club.
+          </p>
+        </section>
+
+        <section class="projects">
+          <h6>Projects</h6>
+          <div class="swiper projects__swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper slide-in__back">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="project__info">
+                  <h6 class="project__name">Bitee-V</h6>
+                  <ul class="project__technologies">
+                    <li>ReactJS</li>
+                    -
+                    <li>React Native</li>
+                    -
+                    <li>Redux</li>
+                    -
+                    <li>Material UI</li>
+                  </ul>
+                  <p class="project__description">
+                    A mobile and web application offering 3000+ free channels to
+                    watch over the internet.
+                  </p>
+
+                  <div class="project__buttons">
+                    <a
+                      href="https://drive.google.com/file/d/1UBq2GFuv7EPpJWQlfPIwPJ-mFqyk8W2I/view"
+                      target="_blank"
+                      class="button"
+                      >Download APK</a
+                    >
+                    <a
+                      href="https://bitee-v.netlify.app"
+                      target="_blank"
+                      class="button"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/JawherBalti/Bitee-V-mobile"
+                      target="_blank"
+                      class="button"
+                      >View Repo</a
+                    >
+                  </div>
+                </div>
+                <div class="project__preview">
+                  <video class="preview" autoplay muted loop>
+                    <source src="assets/biteevpreview.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project__info--web">
+                  <h6 class="project__name">GobloG</h6>
+                  <ul class="project__technologies">
+                    <li>NextJS</li>
+                    -
+                    <li>Typescript</li>
+                    -
+                    <li>TailwindCSS</li>
+                    -
+                    <li>Sanity</li>
+                  </ul>
+                  <p class="project__description">
+                    A web application that offers the possibily to write blogs
+                    and post them, read other blogs and leave comments on them.
+                    Comments need the permission of a moderator to be displayed.
+                  </p>
+
+                  <div class="project__buttons--web">
+                    <a
+                      href="https://goblo-g.vercel.app"
+                      target="_blank"
+                      class="button"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/JawherBalti/GobloG"
+                      target="_blank"
+                      class="button"
+                      >View Repo</a
+                    >
+                  </div>
+                </div>
+                <div class="project__preview--web">
+                  <video class="preview" autoplay muted loop>
+                    <source src="assets/goblogpreview.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project__info">
+                  <h6 class="project__name">ChaTach</h6>
+                  <ul class="project__technologies">
+                    <li>React Native</li>
+                    -
+                    <li>Firebase</li>
+                  </ul>
+                  <p class="project__description">
+                    A real-time messaging application allowing users to login
+                    with email and password , facebook or google account.<br />
+                    Email: admin@chatach.com / Password: topadmin <br />
+                    Email: testuser@chatach.com / Password: testuser
+                  </p>
+
+                  <div class="project__buttons">
+                    <a
+                      href="https://drive.google.com/file/d/1exoppfmYphWfC5baygrd84CVbnuIgl2z/view"
+                      target="_blank"
+                      class="button"
+                      >Download APK</a
+                    >
+                    <a
+                      href="https://github.com/JawherBalti/ChaTach"
+                      target="_blank"
+                      class="button"
+                      >View Repo</a
+                    >
+                  </div>
+                </div>
+                <div class="project__preview">
+                  <video class="preview" autoplay muted loop>
+                    <source src="assets/chatachpreview.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project__info--web">
+                  <h6 class="project__name">Talkee</h6>
+                  <ul class="project__technologies">
+                    <li>ReactJS</li>
+                    -
+                    <li>Redux</li>
+                    -
+                    <li>CSS</li>
+                    -
+                    <li>Mysql</li>
+                    -
+                    <li>NodeJS</li>
+                  </ul>
+                  <p class="project__description">
+                    An internal social network allowing users to interact with
+                    each other through posts, comments and chat. <br />
+                    Admin Email:admin@talkee.com / Admin Password: 100@Topadmin
+                  </p>
+
+                  <div class="project__buttons--web">
+                    <a
+                      href="https://github.com/JawherBalti/talkee-frontend"
+                      target="_blank"
+                      class="button"
+                      >Frontend Repo</a
+                    >
+                    <a
+                      href="https://github.com/JawherBalti/talkee-backend"
+                      target="_blank"
+                      class="button"
+                      >Backend Repo</a
+                    >
+                  </div>
+                </div>
+                <div class="project__preview--web">
+                  <video class="preview" autoplay muted loop>
+                    <source src="assets/talkeepreview.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="skills">
+          <h6>Skills</h6>
+          <div class="skills__container">
+            <div class="skill__container skill__hide">
+              <h6 class="skill__title">Telecom</h6>
+              <div class="skill__icons">
+                <div class="skill__row">
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/cellular.png"
+                      alt="Cellular Networks"
+                    />
+                    <label>Cellular Networks</label>
+                  </div>
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/networking.png"
+                      alt="Computer Networks"
+                    />
+                    <label>Computer Networks</label>
+                  </div>
+                </div>
+                <div class="skill__row">
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/security.png"
+                      alt="Networks Security"
+                    />
+                    <label>Networks Security</label>
+                  </div>
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/protocols.png"
+                      alt="TCP/IP"
+                    />
+                    <label>TCP/IP Protocls</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill__container skill__hide">
+              <h6 class="skill__title">Programming</h6>
+              <div class="skill__icons">
+                <div class="skill__row">
+                  <img
+                    class="icon"
+                    src="./assets/react.png"
+                    alt="react"
+                    title="React"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/vue.png"
+                    alt="vuejs"
+                    title="Vuejs"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/typescript.PNG"
+                    alt="typescript"
+                    title="Typescript"
+                  />
+                </div>
+                <div class="skill__row">
+                  <img
+                    class="icon"
+                    src="./assets/next.png"
+                    alt="next"
+                    title="Nextjs"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/node.png"
+                    alt="nodejs"
+                    title="Nodejs"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/python.png"
+                    alt="python"
+                    title="Python"
+                  />
+                </div>
+                <div class="skill__row">
+                  <img
+                    class="icon"
+                    src="./assets/java.png"
+                    alt="java"
+                    title="Java"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/laravel.png"
+                    alt="laravel"
+                    title="Laravel"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="skill__container skill__hide">
+              <h6 class="skill__title">Other Technologies</h6>
+              <div class="skill__icons">
+                <div class="skill__row">
+                  <img
+                    class="icon"
+                    src="./assets/mui.png"
+                    alt="Material UI"
+                    title="Material UI"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/tailwind.png"
+                    alt="tailwind css"
+                    title="Tailwind CSS"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/redux.png"
+                    alt="redux"
+                    title="Redux"
+                  />
+                </div>
+                <div class="skill__row">
+                  <img
+                    class="icon"
+                    src="./assets/firebase.png"
+                    alt="firebase"
+                    title="Firebase"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/mongo.png"
+                    alt="mongodb"
+                    title="MongoDB"
+                  />
+                  <img
+                    class="icon"
+                    src="./assets/mysql.png"
+                    alt="mysql"
+                    title="MySQL"
+                  />
+                </div>
+                <div class="skill__row">
+                  <img
+                    class="icon"
+                    src="./assets/docker.png"
+                    alt="docker"
+                    title="Docker"
+                  />
+
+                  <img
+                    class="icon"
+                    src="./assets/linux.png"
+                    alt="linux"
+                    title="Linux"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper skills__swiper hide">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide skill__container--swiper">
+                <h6 class="skill__title">Telecom</h6>
+                <div class="skill__icons--swiper">
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/cellular.png"
+                      alt="Cellular Networks"
+                    />
+                    <label>Cellular Networks</label>
+                  </div>
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/networking.png"
+                      alt="Computer Networks"
+                    />
+                    <label>Computer Networks</label>
+                  </div>
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/security.png"
+                      alt="Networks Security"
+                    />
+                    <label>Networks Security</label>
+                  </div>
+                  <div class="skill">
+                    <img
+                      class="icon"
+                      src="./assets/protocols.png"
+                      alt="TCP/IP"
+                    />
+                    <label>TCP/IP Protocls</label>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide skill__container--swiper">
+                <h6 class="skill__title">Programming</h6>
+                <div class="skill__icons">
+                  <div class="skill__row">
+                    <img
+                      class="icon"
+                      src="./assets/react.png"
+                      alt="react"
+                      title="React"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/vue.png"
+                      alt="vuejs"
+                      title="Vuejs"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/typescript.PNG"
+                      alt="typescript"
+                      title="Typescript"
+                    />
+                  </div>
+                  <div class="skill__row">
+                    <img
+                      class="icon"
+                      src="./assets/next.png"
+                      alt="next"
+                      title="Nextjs"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/node.png"
+                      alt="nodejs"
+                      title="Nodejs"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/python.png"
+                      alt="python"
+                      title="Python"
+                    />
+                  </div>
+                  <div class="skill__row">
+                    <img
+                      class="icon"
+                      src="./assets/java.png"
+                      alt="java"
+                      title="Java"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/laravel.png"
+                      alt="laravel"
+                      title="Laravel"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide skill__container--swiper">
+                <h6 class="skill__title">Other Technologies</h6>
+                <div class="skill__icons--swiper">
+                  <div class="skill__row">
+                    <img
+                      class="icon"
+                      src="./assets/mui.png"
+                      alt="Material UI"
+                      title="Material UI"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/tailwind.png"
+                      alt="tailwind css"
+                      title="Tailwind CSS"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/redux.png"
+                      alt="redux"
+                      title="Redux"
+                    />
+                  </div>
+                  <div class="skill__row">
+                    <img
+                      class="icon"
+                      src="./assets/firebase.png"
+                      alt="firebase"
+                      title="Firebase"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/mongo.png"
+                      alt="mongodb"
+                      title="MongoDB"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/mysql.png"
+                      alt="mysql"
+                      title="MySQL"
+                    />
+                  </div>
+                  <div class="skill__row">
+                    <img
+                      class="icon"
+                      src="./assets/docker.png"
+                      alt="docker"
+                      title="Docker"
+                    />
+                    <img
+                      class="icon"
+                      src="./assets/linux.png"
+                      alt="linux"
+                      title="Linux"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <h6>Contact</h6>
+          <div class="contact__info contact__hide">
+            <div class="contact__email">
+              <i class="fas fa-envelope"> Email </i>
+              <span>sanketcompbe@gmail.com</span>
+            </div>
+            <div class="contact__phone">
+              <i class="fas fa-mobile-alt"> Phone</i>
+              <span>7219690757</span>
+            </div>
+            <div class="contact__links">
+              <i class="fas fa-link"> Links</i>
+              <div class="links">
+                <!-- <a
+                  target="_blank"
+                  href="https://www.facebook.com/jawher.balti.94"
+                >
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a> -->
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/sanketrmhatre/"
+                >
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a target="_blank" href="https://github.com/sanketrmhatre">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">&copy; Copyrights</footer>
+        </section>
+      </div>
+    </main>
+
+    <script
+      async
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+    ></script>
+    <script
+      async
+      defer
+      src="https://kit.fontawesome.com/1a015cf62c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script async defer src="script.js"></script>
+  </body>
+</html>
